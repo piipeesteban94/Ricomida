@@ -1,0 +1,22 @@
+body{
+    font-family: "Cabin", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+nav.navbar.navbar-expand-lg{
+    background-color: #373A3C;
+}
+#titulo{
+    font-family: "Lobster", sans-serif;
+    color: white;
+}
+
+button span {
+    color: white;
+}
+a.nav-link{
+    color: white;
+}
