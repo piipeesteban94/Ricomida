@@ -1,7 +1,7 @@
 body{
     font-family: "Cabin", sans-serif;
 }
-
+/* diseño del nav */
 header{
     width: 100%;
     height: auto;
@@ -12,11 +12,16 @@ nav.navbar.navbar-expand-lg{
 #titulo{
     font-family: "Lobster", sans-serif;
     color: white;
+    font-size: 35px;
 }
-
 button span {
     color: white;
 }
 a.nav-link{
     color: white;
+    font-size: 20px;
+}
+
+#imgs{
+    border-radius: 10px;
 }

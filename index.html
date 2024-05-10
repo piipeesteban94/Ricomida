@@ -28,7 +28,7 @@
     <header>
         
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div class="container px-5">
               <a class="navbar-brand" id="titulo" href="#" >Ricomida</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fa-solid fa-bars"></i></span>
@@ -44,8 +44,89 @@
             </div>
           </nav>
     </header>
-    
 
+    <section class="container">
+        <div class="card border-light px-5 mt-3 px-md-5 mx-md-5">
+            <hr class="border border-dark border-1 d-md-none">
+            <div class="row mt-3">
+                <div class="col-12 col-md-6">
+                    <img id="imgs" src="./assets/img/principal.jpg" class="img-fluid " alt="...">
+                </div>
+                <div class=" col-12 col-md-6 mt-3 mt-md-5">
+                    <h1 class="text-center text-md-start fw-bold ">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+                    <hr class="border border-dark border-2 my-3">
+                    <h4 class="text-center text-md-start fw-bold time-text">110 MIN / 6 A 8 PORCIONES</h4>
+                    <div class="d-flex gap-1 d-md-block pt-2">
+                        <button id="enviar_correo" class="btn btn-light  btn-mail border border-ligth border-1 p-2" data-toggle="tooltip"
+                            data-placement="bottom" title="Presiona para enviar a tu correo" href="">Enviar por
+                            coreo</button>
+                        <button class="btn btn-light  btn-favorito border border-ligth border-1 p-2"
+                            data-bs-toggle="tooltip" data-placement="left" title="Agrega esta receta a tus favoritos"
+                            href="">Añadir a favoritos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-none d-md-block">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner px-5 py-5">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-1.png" alt="" />
+                        </div>
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-2.png" alt="" />
+                        </div>
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-3.png" alt="" />
+                        </div>
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-4.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="row">
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-5.png" alt="" />
+                        </div>
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-6.png" alt="" />
+                        </div>
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-7.png" alt="" />
+                        </div>
+                        <div class="col-3">
+                            <img id="imgs" class="img-fluid" src="assets/img/slider-8.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            
+                <button class="carousel-control-prev p-3" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                 </button>
+            </div>
+        </div>
+    </section>
 
 
 
